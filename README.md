@@ -53,8 +53,8 @@ This script can be very useful for any future election audits. It is important t
 
 1. The file path for the CSV file is specific to this election. It is important that you change the file path to match the location of your election results. This change can be done on line 9 of the `PyPoll_Challenge.csv` file. It is also important to note that an additional directory named "analysis" needs to be added to your computer and the file path for this directory needs to be changed as well. This change can be done on line 11 of the same file.
 
-![file_path_change](images/path_change)
+![file_path_change](images/path_change.png)
 
 2. Inspect your CSV file with the election results and look at the order of the header. In this code, we specify that the county is in column 2 and the candidate's name is in column 3. If your CSV is ordered differently, the changes can be made on line 47 and line 50 of the script. **Remember that the number inside the square bracket is the _index_, which is _one less_ than the number of the column.**
 
-![column_index_change](images/column_change)
+![column_index_change](images/column_change.png)
